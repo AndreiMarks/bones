@@ -7,6 +7,7 @@ public class AmBehaviour : MonoBehaviour
     protected StageController _stage            { get { return StageController.Instance; } }
 
     // Settings
+    protected InputSettings _inputSettings      { get { return InputSettings.Instance; } }
 
     // Components
     Transform _t;
