@@ -34,6 +34,11 @@ public class Grid : MonoBehaviour
         columns = width;
     }
 
+    public void SetTileSize( float tileSize )
+    {
+        this.tileSize = tileSize;
+    }
+
     public void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
