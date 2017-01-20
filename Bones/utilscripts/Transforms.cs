@@ -47,5 +47,15 @@ public static class TransformExtensions
             UnityEngine.Object.Destroy(child.gameObject);
         }
     }
+
+    /// <summary>
+    /// Zero out transform.
+    /// </summary>
+    public static void ZeroOut( this Transform transform )
+    {
+        transform.localPosition = Vector3.zero;
+        transform.localRotation = Quaternion.identity;
+        transform.localScale = Vector3.one;
+    }
 }
 

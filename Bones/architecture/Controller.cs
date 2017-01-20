@@ -9,7 +9,9 @@ public class Controller<T> : AmBehaviour where T : AmBehaviour
 	{
 		get
         { 
-            if ( _instance == null ) _instance = LoadInstanceFromPrefab();
+            if ( _instance == null ) {
+                _instance = LoadInstanceFromPrefab();
+            }
 			return _instance; 
 		}
 	}
