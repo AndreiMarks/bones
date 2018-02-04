@@ -6,9 +6,9 @@ public class InputSettings : Settings<InputSettings>
 {
     public static void DefaultAction( TouchInfo ti ) {}
     
-    public event Action<TouchInfo> OnTouchBegan = DefaultAction;
-    public event Action<TouchInfo> OnTouchEnded = DefaultAction;
-    public event Action<TouchInfo> OnTouchMoved = DefaultAction;
+    public static event Action<TouchInfo> OnTouchBegan = DefaultAction;
+    public static event Action<TouchInfo> OnTouchEnded = DefaultAction;
+    public static event Action<TouchInfo> OnTouchMoved = DefaultAction;
 
     public void ReportTouchBegan( TouchInfo touch )
     {
