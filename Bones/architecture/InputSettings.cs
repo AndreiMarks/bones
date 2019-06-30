@@ -2,7 +2,7 @@
 using System;
 using System.Collections;
 
-public class InputSettings : Settings<InputSettings> 
+public class InputSettings : Controller<InputSettings> 
 {
     public static void DefaultAction( TouchInfo ti ) {}
     
