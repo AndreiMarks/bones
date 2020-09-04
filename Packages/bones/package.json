@@ -7,6 +7,13 @@
   "keywords": [
     "utilities"
   ],
+  "dependencies": {
+    "com.unity.inputsystem": "1.0.0",
+    "com.unity.textmeshpro": "2.0.1",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0"
+  },
   "author": {
     "name": "Andrei Marks",
     "email": "hey@ndrei.us",
