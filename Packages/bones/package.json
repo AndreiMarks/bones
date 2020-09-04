@@ -1,0 +1,15 @@
+{
+  "name": "com.andreimarks.bones",
+  "version": "1.0.0",
+  "displayName": "Bones",
+  "description": "A Unity utility package!",
+  "unity": "2019.4",
+  "keywords": [
+    "utilities"
+  ],
+  "author": {
+    "name": "Andrei Marks",
+    "email": "hey@ndrei.us",
+    "url": "https://www.andreimarks.com"
+  }
+}
