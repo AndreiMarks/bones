@@ -15,6 +15,18 @@
     "com.unity.modules.ui": "1.0.0",
     "com.unity.modules.uielements": "1.0.0"
   },
+  "samples": [
+    {
+      "displayName": "Journal WIP",
+      "description": "In progress Journal work.",
+      "path": "Samples~/Journal_WIP"
+    },
+    {
+      "displayName": "Chess WIP",
+      "description": "In progress Chess work.",
+      "path": "Samples~/Chess_WIP"
+    }
+  ],
   "author": {
     "name": "Andrei Marks",
     "email": "hey@ndrei.us",
