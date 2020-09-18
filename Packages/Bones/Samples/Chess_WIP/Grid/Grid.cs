@@ -9,7 +9,7 @@ namespace Bones.Grids
         private int _height;
 
         private List<T> _gridSpaces;
-        
+
         public Grid(int width, int height)
         {
             _width = width;
@@ -37,7 +37,7 @@ namespace Bones.Grids
         }
     }
 
-    public abstract class GridSpace
+    public class GridSpace
     {
         private int _column;
         public int Column
@@ -59,6 +59,10 @@ namespace Bones.Grids
         public void SetRow(int row)
         {
             _row = row;
+        }
+
+        public GridSpace()
+        {
         }
     }
 }
