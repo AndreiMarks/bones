@@ -17,14 +17,24 @@
   },
   "samples": [
     {
+      "displayName": "Chess WIP",
+      "description": "In progress Chess work.",
+      "path": "Samples~/Chess_WIP"
+    },
+    {
+      "displayName": "Grids WIP",
+      "description": "In progress Grids work.",
+      "path": "Samples~/Grids_WIP"
+    },
+    {
       "displayName": "Journal WIP",
       "description": "In progress Journal work.",
       "path": "Samples~/Journal_WIP"
     },
     {
-      "displayName": "Chess WIP",
-      "description": "In progress Chess work.",
-      "path": "Samples~/Chess_WIP"
+      "displayName": "TicTacToe WIP",
+      "description": "In progress TicTacToe work.",
+      "path": "Samples~/TicTacToe_WIP"
     }
   ],
   "author": {
