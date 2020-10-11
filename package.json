@@ -1,0 +1,35 @@
+{
+  "name": "com.andreimarks.bones",
+  "version": "1.0.2",
+  "displayName": "Bones",
+  "description": "A Unity utility package!",
+  "unity": "2019.4",
+  "keywords": [
+    "utilities"
+  ],
+  "dependencies": {
+    "com.unity.inputsystem": "1.0.0",
+    "com.unity.textmeshpro": "2.0.1",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Journal WIP",
+      "description": "In progress Journal work.",
+      "path": "Samples~/Journal_WIP"
+    },
+    {
+      "displayName": "Chess WIP",
+      "description": "In progress Chess work.",
+      "path": "Samples~/Chess_WIP"
+    }
+  ],
+  "author": {
+    "name": "Andrei Marks",
+    "email": "hey@ndrei.us",
+    "url": "https://www.andreimarks.com"
+  }
+}
